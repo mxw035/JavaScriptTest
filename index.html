@@ -5,7 +5,7 @@
         <h1>Monica's Test JS page</h1>
         
         <p id="checkit">P Id Check It</p>
-        
+        <p id="test"></p>
          <script>
           function checkItNow() {
             docuemnt.getElementById("checkit").innerHTML = "Changed this text via Function What What!?!?!??!";
@@ -13,6 +13,10 @@
         </script>  
         <button type="button" onclick="checkItNow()">Whats up</button>
         <button type="button" onclick="document.getElementById('checkit').innerHTML = 'Changed this via document.get'"> Button Attempt 2</button>
+        <script>
+          const cars = ["Saab", "Volvo", "BMW"];
+          doucment.getElementById("test").innerHTML(cars[1]);
+        </script>
       
       </body>
     </head>
